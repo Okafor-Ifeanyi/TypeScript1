@@ -1,0 +1,16 @@
+{
+  "name": "typescript1",
+  "version": "1.0.0",
+  "description": "Learnable test on typescript to fix existing codebase",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node filterfunc.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
